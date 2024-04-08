@@ -1,0 +1,81 @@
+.navigation {
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.logo img {
+    width: 30px; 
+    height: auto;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-menu ul li:first-child {
+    margin-left: 0;
+}
+
+.nav-menu ul li a {
+    text-decoration: none; 
+    color: #000000; 
+}
+footer {
+    background-color: #ffffff; 
+    color: #000000; 
+    padding-top: 100px; 
+    padding-left: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    padding-left: 20px; 
+}
+.footer-links {
+    display: inline-block;
+}
+
+.footer-links a {
+    color: #000000; 
+    text-decoration: none; 
+}
+
+.footer-links a:last-child {
+    margin-right: 0; 
+}
+.flex-container {
+    display: flex; /* Use flexbox */
+}
+
+.skill {
+    flex: 1; /* Each skill takes up equal space */
+    margin: 0 10px; /* Add spacing between skills */
+    text-align: center; /* Center align content */
+    border: 1.5px solid #000; /* Add black border */
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 10px;
+    box-sizing: border-box; /* Include border in the element's total width and height */
+}
+
+.skill img {
+    width: 300px; /* Adjust image size as needed */
+    height: 300px;
+}
+body, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* For specific elements */
+.navigation, footer {
+    font-family: 'Montserrat', sans-serif;
+}
